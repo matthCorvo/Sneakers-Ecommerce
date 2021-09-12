@@ -34,7 +34,7 @@ const SingleProducts = ({prod}) => {
 						<Rating rating={prod.ratings} />
 					</span>
                 <div className="mt-2">
-          <span className="badge badge-secondary" style={{ fontSize:20}}> 
+          <span className="badge badge-secondary" style={{ fontSize:17}}> 
            {prod.fastDelivery ? (
                         <div>Livraison rapide</div>
                       ) : (
