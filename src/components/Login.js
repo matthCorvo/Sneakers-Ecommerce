@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Modal } from "react-bootstrap";
+import { Container, Modal } from "react-bootstrap";
 import './styles/login.css'
 import { SiFacebook } from "react-icons/si";
 import { AiFillGoogleCircle, AiFillTwitterCircle } from "react-icons/ai";
@@ -21,9 +21,9 @@ export default function MyVerticallyCenteredModal(props) {
         <h2 className="text-center">Sign in</h2>
         <Container>		
         <div className="text-center social-btn text-white">
-            <button className="btn btn-primary btn-block"><SiFacebook fontSize="25px" style={{marginRight:20}}/> Sign in with <b>Facebook</b></button>
-            <button className="btn btn-info btn-block"><AiFillTwitterCircle fontSize="25px" style={{marginRight:20}}/> Sign in with <b>Twitter</b></button>
-            <button className="btn btn-danger btn-block"><AiFillGoogleCircle fontSize="25px" style={{marginRight:20}}/> Sign in with <b>Google</b></button>
+            <button className="btn btn-primary btn-block"><SiFacebook fontSize="25px" style={{marginRight:20}}/> Se connecter avec <b>Facebook</b></button>
+            <button className="btn btn-info btn-block"><AiFillTwitterCircle fontSize="25px" style={{marginRight:20}}/> Se connecter avec <b>Twitter</b></button>
+            <button className="btn btn-danger btn-block"><AiFillGoogleCircle fontSize="25px" style={{marginRight:20}}/> Se connecter avec <b>Google</b></button>
         </div>
 		<div className="or-seperator"><i>or</i></div>
         <div className="form-group">
@@ -33,7 +33,7 @@ export default function MyVerticallyCenteredModal(props) {
                         <span className="fa fa-user"></span>
                     </span>                    
                 </div>
-                <input type="text" className="form-control " name="username" placeholder="Username" required="required" />
+                <input type="text" className="form-control " name="username" placeholder="Nom d'utilisateur" required="required" />
             </div>
         </div>
 		<div className="form-group">
@@ -43,19 +43,19 @@ export default function MyVerticallyCenteredModal(props) {
                         <i className="fa fa-lock"></i>
                     </span>                    
                 </div>
-                <input type="password" className="form-control" name="password" placeholder="Password" required="required"/>
+                <input type="password" className="form-control" name="password" placeholder="mot de passe" required="required"/>
             </div>
         </div>        
         <div className="form-group">
-            <button type="submit" className="btn btn-success btn-block login-btn">Sign in</button>
+            <button type="submit" className="btn btn-success btn-block login-btn">Se connecter </button>
         </div>
         <div className="clearfix">
-            <label className="float-left form-check-label"><input type="checkbox"/> Remember me</label>
-            <Link to="/" className="float-right text-success">Forgot Password?</Link>
+            <label className="float-left form-check-label"><input type="checkbox"/> Se souvenir de moi</label>
+            <Link to="/" className="float-right text-success">Mot de passe oublier</Link>
         </div>  
         
   <br/>
-    <div className="hint-text">Don't have an account? <Link to="/"  href="#" className="text-success" >Register Now!</Link></div>
+    <div className="hint-text">Don't have an account? <Link to="/"  href="#" className="text-success" >S'inscrire maintenant!</Link></div>
              
         </Container>		
 
