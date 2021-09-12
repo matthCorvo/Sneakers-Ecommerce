@@ -1,0 +1,119 @@
+
+
+
+.banner h1 { font-size: 60px ;  
+    text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+.banner h3 {
+  font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: rgb(255, 255, 255);
+}
+
+
+.banner h1, .banner h3 {
+  margin: 0;
+  text-shadow: 2px 2px 6px rgb(0, 0, 0);
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+	.banner h1{
+		font-size: 42px;
+	  }
+	  .banner h3{
+		font-size: 22px;
+	  }
+		  }
+		
+.banner {
+  color: white;
+  background: url('../img/nike-just-do-it.jpg') top left/cover no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Aylen */
+.button--round-l {
+	border-radius: 40px;
+}
+.button--text-thick {
+	font-weight: 600;
+}
+
+
+
+.button {
+    font-size: 20px;text-transform: uppercase;border:3px solid white;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	padding: 1em 2em;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+	outline: none;
+}
+.button > span {
+	vertical-align: middle;
+}
+
+
+.button.button--aylen {
+	background: #343A40;
+	color: #ffffff;
+	overflow: hidden;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+.button--aylen.button--inverted {
+	background: none;
+	color: #fff;
+}
+.button--aylen::before,
+.button--aylen::after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	bottom: 100%;
+	left: 0;
+	z-index: -1;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--aylen::before {
+	background: #e3e3e6;
+}
+.button--aylen::after {
+	background: #ffffff;
+}
+.button--aylen:hover {
+	color: rgb(0, 0, 0);
+    border:3px solid rgb(0, 0, 0);
+}
+.button--aylen:hover::before,
+.button--aylen:hover::after {
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+}
+.button--aylen:hover::after {
+	-webkit-transition-delay: 0.175s;
+	transition-delay: 0.175s;
+}

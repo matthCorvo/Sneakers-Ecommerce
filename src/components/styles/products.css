@@ -1,0 +1,35 @@
+.title_card{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .1rem;	font-size: 24px;
+    }
+
+.price{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .1rem;	font-size: 24px;}
+
+    .product__price-tag {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-radius: 8px 8px 8px 0;
+        background: #2166fa;
+        z-index: 99;
+        position: absolute;
+        top: -15px;
+        left: -20px;
+   }
+    .product__price-tag::after {
+        content: '';
+        position: absolute;
+        border-left: 20px solid transparent;
+        border-top: 10px solid #294ba7;
+        left: 0px;
+        top: 50px;
+   }
+    .product__price-tag-price {
+        margin-left: 20px;
+        color: #fff;
+        font-size: 24px;
+   }
+  
