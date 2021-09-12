@@ -50,12 +50,12 @@ export default function MyVerticallyCenteredModal(props) {
             <button type="submit" className="btn btn-success btn-block login-btn">Se connecter </button>
         </div>
         <div className="clearfix">
-            <label className="float-left form-check-label"><input type="checkbox"/> Se souvenir de moi</label>
-            <Link to="/" className="float-right text-success">Mot de passe oublier</Link>
+            <label className="float-left form-check-label"><input type="checkbox"/> Se souvenir de moi </label>
+            <Link to="/" className="float-right text-success">Mot de passe oublier ?</Link>
         </div>  
         
   <br/>
-    <div className="hint-text">Don't have an account? <Link to="/"  href="#" className="text-success" >S'inscrire maintenant!</Link></div>
+    <div className="hint-text">Vous n'avez pas de compte ?<Link to="/"  href="#" className="text-success" >S'inscrire maintenant!</Link></div>
              
         </Container>		
 
