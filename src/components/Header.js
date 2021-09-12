@@ -29,7 +29,7 @@ const Header = () => {
 
   
   return (
-    <Navbar bg="dark" variant="dark" style={{ height: 80, position: 'sticky',top: 0}}>
+    <Navbar bg="dark" variant="dark" style={{ height: 80, position: 'sticky',top: 0, zIndex:999,}}>
         <Navbar.Brand>
           <Link to="/">NIKE OUTLET</Link>
         </Navbar.Brand>
