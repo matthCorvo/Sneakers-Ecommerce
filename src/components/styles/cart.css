@@ -37,7 +37,8 @@
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding: 4vh;
-    color: rgb(65, 65, 65)
+    color: rgb(65, 65, 65);
+    width:100%;
 }
 
 @media(max-width:767px) {
