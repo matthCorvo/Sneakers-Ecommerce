@@ -15,26 +15,26 @@ const Footer = () => {
 					</article>
 				</aside>
 				<aside className="col-sm-3 col-md-2">
-				<h6 className="title">Apropos</h6>
-					<ul className="list-unstyled" style={{textTransform: 'lowercase',}}>
+				<h6 className="title">À propos</h6>
+					<ul className="list-unstyled" style={{textTransform: 'lowercase',cursor: "pointer"}}>
 						<li> 	TROUVER UN MAGASIN
 </li>
-						<li> 			S'INSCRIRE AUX E-MAILS
+						<li> 			S'INSCRIRE 
 </li>
 						<li> 				DEVENIR MEMBRE
 </li>
-						<li> 				RÉDUCTION POUR ÉTUDIANTS
+						<li> 				RÉDUCTION 
 </li>
 					</ul>
 				</aside>
 				<aside className="col-sm-3 col-md-2">
 					<h6 className="title">AIDE
 </h6>
-					<ul className="list-unstyled">
-						<li>Statut de commande</li>
-						<li>Expédition et livraison</li>
+					<ul className="list-unstyled"style={{cursor: "pointer"}}>
+						<li>Commande</li>
+						<li>Expédition </li>
 						<li> Retours</li>
-						<li> Modes de paiement</li>
+						<li>Paiement</li>
 					</ul>
 				</aside>
 				<aside className="col-sm-3  col-md-2">
@@ -58,8 +58,7 @@ const Footer = () => {
 		<section className="footer-copyright border-top">
 				<p className="float-left text-muted"> © 2021 Company  All rights to MatthC </p>
 				<p target="_blank" className="float-right text-muted" style={{cursor: "pointer"}}>
-					<div href="#">Conditions d'utilisation &amp; </div> &nbsp;   &nbsp;
-					<div href="#">Mentions légales</div>
+					<div href="#">Conditions d'utilisation &amp;Mentions légales </div> 
 				</p>
 		</section>
 	</div>

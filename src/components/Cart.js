@@ -5,7 +5,6 @@ import { AiFillDelete } from "react-icons/ai";
 import Rating from './Rating'
 import { useEffect, useState } from "react";
 import './styles/cart.css'
-import Footer from "./Footer";
 import { Link} from "react-router-dom";
 
 const Cart = () => {
@@ -170,7 +169,6 @@ const Cart = () => {
     </div>
     </div>
    */}
-         <Footer/>
 
   </>
   );
