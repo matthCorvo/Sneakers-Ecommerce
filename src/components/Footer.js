@@ -15,14 +15,15 @@ const Footer = () => {
 					</article>
 				</aside>
 				<aside className="col-sm-3 col-md-2">
-					<ul className="list-unstyled">
-						<li> 					<h6 className="title">TROUVER UN MAGASIN</h6>
+				<h6 className="title">Apropos</h6>
+					<ul className="list-unstyled" style={{textTransform: 'lowercase',}}>
+						<li> 	TROUVER UN MAGASIN
 </li>
-						<li> 					<h6 className="title">S'INSCRIRE AUX E-MAILS</h6>
+						<li> 			S'INSCRIRE AUX E-MAILS
 </li>
-						<li> 					<h6 className="title">DEVENIR MEMBRE</h6>
+						<li> 				DEVENIR MEMBRE
 </li>
-						<li> 					<h6 className="title">RÉDUCTION POUR ÉTUDIANTS</h6>
+						<li> 				RÉDUCTION POUR ÉTUDIANTS
 </li>
 					</ul>
 				</aside>

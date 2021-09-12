@@ -35,7 +35,7 @@ const Cart = () => {
                     <div className="col">
                         <h4><b>Panier</b></h4>
                     </div>
-                    <div className="col align-self-center text-right text-muted">({cart.length})items</div>
+                    <div className="col align-self-center text-right text-muted">({cart.length})articles</div>
                 </div>
             </div>
             {cart.map((prod) => (
@@ -81,7 +81,7 @@ const Cart = () => {
                 </div>
             </div>  ))}
           
-            <div className="back-to-shop"><BsArrowLeftShort/> <Link to="/" ><span className="text-muted">Back to shop</span></Link></div>
+            <div className="back-to-shop"><BsArrowLeftShort/> <Link to="/" ><span className="text-muted">retour à la boutique</span></Link></div>
         </div>
         <div className="col-md-4 summary">
             <div>
@@ -89,19 +89,19 @@ const Cart = () => {
             </div>
             <hr/>
             <div className="row">
-                <div className="col" >ITEMS ({cart.length})</div>
+                <div className="col" >articles ({cart.length})</div>
                 <div className="col text-right"> {total} €</div>
             </div>
             <form>
-                <p>SHIPPING</p> <select>
-                    <option className="text-muted">Standard-Delivery- 5.00&euro;</option>
+                <p>EXPÉDITION</p> <select>
+                    <option className="text-muted">Livraison standard -- 5.00€</option>
                 </select>
-                <p>GIVE CODE</p> <input id="code" placeholder="Enter your code" />
+                <p>CODE PROMO</p> <input id="code" placeholder="Entrez votre code PROMO" />
             </form>
             <div className="row" >
-                <div className="col">TOTAL PRICE</div>
+                <div className="col">PRIX TOTAL </div>
                 <div className="col text-right"> {total} €</div>
-            </div> <button disabled={cart.length === 0}className="btn">CHECKOUT</button>
+            </div> <button disabled={cart.length === 0}className="btn">PAYEMENT</button>
         </div>
     </div>
 </div>
