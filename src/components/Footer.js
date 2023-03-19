@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className="row">
 				<aside className="col-md-4">
 					<article className="mr-3">
-						<h1>NIKE OUTLET	</h1>					<p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, odit consequuntur temporibus maiores blanditiis autem, consectetur optio facere, porro rem cum similique adipis.
+						<h1>NIKE OUTLET	</h1>					<p className="mt-3">Découvrez la qualité supérieure des chaussures, vêtements et accessoires de sport Nike. Trouvez tout ce dont vous avez besoin pour vous entraîner, vous détendre ou afficher votre style. Rejoignez la communauté Nike et adoptez une marque qui inspire les athlètes du monde entier.
 						</p>
 		
 					</article>
