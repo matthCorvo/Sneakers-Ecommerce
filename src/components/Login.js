@@ -51,7 +51,7 @@ export default function MyVerticallyCenteredModal(props) {
         </div>
         <div className="clearfix">
             <label className="float-left form-check-label"><input type="checkbox"/> Se souvenir de moi </label>
-            <Link to="/" className="text-center text-success">Mot de passe oublier ?</Link>
+            <Link to="/" className="float-center text-success">Mot de passe oublier ?</Link>
         </div>  
         
   <br/>
