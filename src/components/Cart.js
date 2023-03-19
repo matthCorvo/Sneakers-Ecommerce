@@ -100,7 +100,7 @@ const Cart = () => {
             <div className="row" >
                 <div className="col">PRIX TOTAL </div>
                 <div className="col text-right"> {total} €</div>
-            </div> <button disabled={cart.length === 0}className="btn">PAYEMENT</button>
+            </div> <button disabled={cart.length === 0}className="btn">PAIEMENT</button>
         </div>
     </div>
 </div>
