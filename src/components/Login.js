@@ -18,7 +18,7 @@ export default function MyVerticallyCenteredModal(props) {
       ><Modal.Header closeButton style={{borderBottom: 'none', }}> 
     </Modal.Header>
        <form className="login-form" id='login'>
-        <h2 className="text-center">Sign in</h2>
+        <h2 className="text-center">s'inscrire</h2>
         <Container>		
         <div className="text-center social-btn text-white">
             <button className="btn btn-primary btn-block"><SiFacebook fontSize="25px" style={{marginRight:20}}/> Se connecter avec <b>Facebook</b></button>
